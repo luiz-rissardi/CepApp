@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.full-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bg-degarde{
+    background-image: linear-gradient(to right, purple,rebeccapurple,rgb(230, 0, 255));
+}
+
+.search-area{
+    height: 96%;
+    margin:10px;
+    background-color: azure;
+    font-family: monospace;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.cep-area{
+    max-width: 100%;
+    height: 40vh;
+    padding: 10px;
+    margin:10px;
+    background-color: azure;
+    font-family: monospace;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cep-area h1{
+    font-weight: 900;
+}
+
+.cep-area p{
+    margin-top: 15px;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+.cep-content{
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.cep-content .content{
+    margin-top: 40px;
+}
+
+.cep-content .content:last-child{
+    margin-bottom: 30px;
+}
+
+#cep{
+    border-radius: 5px;
+    outline:0;
+    background-color: transparent;
+    width: 100%;
+}
+
+@media screen and (max-width:874px){
+ 
+    .cep-area{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .cep-area p{
+        font-size:large;
+        margin-left: 10px;
+    }
+
+    .full-page{
+        display: block;
+    }
+
+    .search-area{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:475px){
+    h6{
+        width: 250px !important;
+    }
+}
+
+.is-show{
+    opacity: 1 !important;
+    transition: 0.5s ease-in;
+}
+
+
+
+.invalid-cep{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    padding-inline: 50px;
+    background-color: rgb(251, 25, 104);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
