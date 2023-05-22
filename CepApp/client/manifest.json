@@ -1,10 +1,10 @@
 {
-    "name": "Dev'Coffee",
-    "short_name": "Coffee",
+    "name": "Cep's Search",
+    "short_name": "Cep Search",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#db4938",
+    "background_color": "#663399",
+    "theme_color": "#663399",
     "orientation": "portrait-primary",
     "icons": [
       {
