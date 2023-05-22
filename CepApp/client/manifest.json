@@ -5,5 +5,27 @@
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
-    "orientation": "portrait-primary"
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/51WcUuvChzL.png",
+        "type": "image/png", "sizes": "72x72"
+      },
+      {
+        "src": "images/51WcUuvChzL.png",
+        "type": "image/png", "sizes": "96x96"
+      },
+      {
+        "src": "images/51WcUuvChzL.png",
+        "type": "image/png", "sizes": "128x128"
+      },
+      {
+        "src": "images/51WcUuvChzL.png",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "images/51WcUuvChzL.png",
+        "type": "image/png", "sizes": "152x152"
+      }
+    ]
   }

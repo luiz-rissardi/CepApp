@@ -1,5 +1,5 @@
 
-import { renderCotainerCep, rewriteContainerCep, temporarilyShowInvalidContainer} from "./ContainerSetup.js"
+import { renderCotainerCep, rewriteContainerCep, temporarilyShowInvalidContainer} from "./containersetup.js"
 
 async function takeData() {
     const cep = document.getElementById("cep").value;
