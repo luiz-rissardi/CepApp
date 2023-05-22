@@ -1,7 +1,7 @@
 {
     "name": "Dev'Coffee",
     "short_name": "Coffee",
-    "start_url": "./client/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
